@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Test Blog</title>
+    <link rel="shortcut icon" href="aops-icon.ico" type="image/x-icon" />
+
+    <script src="./script.js" defer></script>
 
     <style>
       #feed-topic .cmty-topic-moderate {
@@ -19,7 +22,7 @@
       }
 
       .cmty-post .cmty-phone-poster {
-        display: inline-block;
+        /* display: inline-block; */
         float: left;
         font-size: 10pt;
         line-height: 12pt;
@@ -63,13 +66,13 @@
     <div id="page-wrapper">
       <div id="navigation_box">
         <div id="left_navigation_box">
-          <a href="/community">Community</a> »
-          <a href="/community/c88">Blogs</a> »
-          <a data-blog="" href="/community/c1300740">Test Blog</a>
+          <a href="https://artofproblemsolving.com/community">Community</a> »
+          <a href="https://artofproblemsolving.com/community">Blogs</a> »
+          <a data-blog="" href=".">Test Blog</a>
         </div>
         <div id="right_navigation_box">
           <a
-            href=""
+            href="."
             id="blog-subscribe"
             class="clickable"
             title="Click to receive email notifications for new posts in this blog"
@@ -77,17 +80,15 @@
             Subscribe
           </a>
           •
-          <a href="" class="blog-logout">Logout sealsrock</a>
+          <a href="." class="blog-logout">Logout Halp!</a>
           •
-          <a class="blog-info" href="/community/category-admin/1300740"
-            >Blog Info</a
-          >
+          <a class="blog-info" href=".">Blog Info</a>
         </div>
         <div class="clear"></div>
       </div>
       <div id="wrapper">
         <div id="header">
-          <a data-blog="" href="/community/c1300740"><h1>Test Blog</h1></a>
+          <a data-blog="" href="."><h1>Test Blog</h1></a>
         </div>
         <div id="content">
           <div id="main">
@@ -100,8 +101,10 @@
             <div>
               <div class="entry" id="post-2380853">
                 <h1>
-                  <a data-blog="" href="/community/c1300740h2380853_test_entry"
-                    >Test entry</a
+                  <a
+                    data-blog=""
+                    href="https://artofproblemsolving.com/community/user/37932"
+                    >Hello World!</a
                   >
                 </h1>
                 <h2>
@@ -115,12 +118,71 @@
                       href="/community/user/364963"
                       style="color: #bd4f17"
                       class="username-coloured"
-                      >sealsrock</a
+                      >AoPS</a
                     ></strong
-                  >, Dec 17, 2020, 2:50 PM
+                  >, Feb 8, 2015, 10:38 AM
                 </h2>
                 <div class="entrywrap">
-                  <div class="message">asdasdasdasdasd</div>
+                  <div class="message">
+                    Hello World
+                    <br /><br />
+
+                    <!-- hide tag -->
+                    <span
+                      class="cmty-hide-heading faux-link"
+                      onclick="show_hide('hide-1')"
+                      href="#"
+                      >Click to open hide tag</span
+                    >
+                    <div
+                      class="cmty-hide-content"
+                      id="hide-1"
+                      style="display: none"
+                    >
+                      Hide tag content
+                    </div>
+
+                    <!-- tip tag -->
+                    <span
+                      class="cmty-tip-header first-time"
+                      onmouseover="show_tip('triangle-1', 'tip-1')"
+                      onmouseout="hide_tip('triangle-1', 'tip-1')"
+                      style="position: relative"
+                      href="#"
+                      >Hover to show tip content</span
+                    >
+                    <div
+                      class="cmty-tip-triangle"
+                      id="triangle-1"
+                      style="
+                        display: none;
+                        position: absolute;
+                        margin-left: 250px;
+                      "
+                    ></div>
+                    <div
+                      class="cmty-tip-content"
+                      id="tip-1"
+                      style="
+                        display: none;
+                        position: absolute;
+                        margin-top: 10px;
+                        margin-left: 210px;
+                      "
+                    >
+                      Tip Content
+                    </div>
+
+                    <!-- python -->
+                    <pre
+                      class="python"
+                      style="
+                        font-family: monospace;
+                        background-color: #f4f6f4;
+                        padding: 10px;
+                      "
+                    ><span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">(</span><span style="color: #483d8b;">'hello world'</span><span style="color: black;">)</span></pre>
+                  </div>
                   <div class="cmty-post-attachments"></div>
                   <div class="cmty-post-edit-info"></div>
                   <div class="cmty-tags-itembox-wrapper">
@@ -186,18 +248,15 @@
           <div id="side">
             <div id="user-menu-widget" class="block user_menu">
               <div style="text-align: center">
-                <p class="description">Blog for testing of CSS.</p>
+                <p class="description">AoPS's Blog!</p>
                 <p class="avatar">
-                  <img
-                    src="//avatar.artofproblemsolving.com/avatar_364963.png?t=1615250315"
-                    alt="avatar"
-                    width="70"
-                    height="70"
-                  />
+                  <img src="./avatar.png" alt="avatar" width="70" height="70" />
                 </p>
                 <strong class="user-full">
-                  <a href="/community/user/364963" class="username-colored"
-                    >sealsrock</a
+                  <a
+                    href="https://artofproblemsolving.com/community/user/37932"
+                    class="username-colored"
+                    >AoPS</a
                   >
                 </strong>
               </div>
@@ -216,14 +275,12 @@
                         alt="-"
                         src="https://artofproblemsolving.com/m/community/img/blogs/hyperion/minus.gif"
                       />
-                      December 2020
+                      Febuary 2015
                     </strong>
                   </span>
                   <div class="archive-month-topics">
                     <div class="archive-row">
-                      <a href="/community/c1300740h2380853" data-blog=""
-                        >Test entry</a
-                      >
+                      <a href="." data-blog="">Hello World!</a>
                     </div>
                   </div>
                 </div>
@@ -248,7 +305,7 @@
 
               <div class="widget-settings"></div>
               <div class="widget-content">
-                <fieldset class="blog-shout-wrapper">
+                <!-- <fieldset class="blog-shout-wrapper">
                   <div
                     class="
                       aops-scroll-outer aops-scrollbar-not-visible
@@ -268,6 +325,65 @@
                       <ul class="aops-scroll-content"></ul>
                     </div>
                   </div>
+                </fieldset> -->
+                <fieldset class="blog-shout-wrapper">
+                  <div
+                    class="
+                      aops-scroll-outer aops-scrollbar-not-visible
+                      blog-scroll-outer
+                    "
+                  >
+                    <div class="aops-scroll-bar" style="display: none">
+                      <div
+                        class="aops-scroll-slider"
+                        style="
+                          display: none;
+                          top: -1308.56px;
+                          height: 1692.56px;
+                        "
+                      ></div>
+                    </div>
+                    <div
+                      class="aops-scroll-inner"
+                      style="overflow-y: scroll; width: calc(100% + 16px)"
+                    >
+                      <ul class="aops-scroll-content">
+                        <li class="blog-shout row1">
+                          <p></p>
+                          Hi!!
+                          <p>
+                            <span class="aops-icon blog-delete-shout">J</span>by
+                            <a
+                              href="https://artofproblemsolving.com/community/user/34863"
+                              >GameBot</a
+                            >, a minute ago
+                          </p>
+                        </li>
+                        <li class="blog-shout row2">
+                          <p></p>
+                          Hello!
+                          <p>
+                            <span class="aops-icon blog-delete-shout">J</span>by
+                            <a
+                              href="https://artofproblemsolving.com/community/user/10"
+                              >Halp!</a
+                            >, 3 minutes ago
+                          </p>
+                        </li>
+                        <li class="blog-shout row1">
+                          <p></p>
+                          Hi
+                          <p>
+                            <span class="aops-icon blog-delete-shout">J</span>by
+                            <a
+                              href="https://artofproblemsolving.com/community/user/34863"
+                              >AoPS</a
+                            >, 10 minutes ago
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </fieldset>
                 <span class="blog-num-shouts">0 shouts</span>
               </div>
@@ -279,7 +395,7 @@
               </div>
               <div class="widget-settings"></div>
               <div class="widget-content">
-                <fieldset class="blog-tags-wrapper">
+                <!-- <fieldset class="blog-tags-wrapper">
                   <div class="cmty-itembox">
                     <div
                       class="
@@ -307,7 +423,7 @@
                       </div>
                     </div>
                   </div>
-                </fieldset>
+                </fieldset> -->
               </div>
               <div class="widget-footer"></div>
             </div>
@@ -320,11 +436,11 @@
                 <ul style="padding-bottom: 0; margin-bottom: 0">
                   <li style="padding-bottom: 3px">
                     <strong>Posts:</strong>
-                    1276
+                    82941
                   </li>
                   <li style="padding-bottom: 3px">
                     <strong>Joined:</strong>
-                    Aug 14, 2017
+                    Feb 7, 2008
                   </li>
                 </ul>
               </div>
@@ -339,7 +455,7 @@
                 <ul style="padding-bottom: 0; margin-bottom: 0">
                   <li style="padding-bottom: 3px">
                     <strong>Blog created:</strong>
-                    Sep 17, 2020
+                    Sep 6, 2010
                   </li>
                   <li style="padding-bottom: 3px">
                     <strong>Total entries:</strong>
@@ -347,7 +463,7 @@
                   </li>
                   <li style="padding-bottom: 3px">
                     <strong>Total visits:</strong>
-                    3
+                    553
                   </li>
                   <li style="padding-bottom: 3px">
                     <strong>Total comments:</strong>
