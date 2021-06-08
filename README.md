@@ -1,7 +1,7 @@
 # AoPS Blog Development Server
 
 A barebones AoPS blog environment built in Vite.
-The default blog CSS is here: <a href="https://aops-blog-env.toad39.dev/ target="_blank">https://aops-blog-env.toad39.dev/</a>
+The default blog CSS is here: [https://aops-blog-env.toad39.dev/](https://aops-blog-env.toad39.dev/)
 
 
 ## About
