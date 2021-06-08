@@ -36,6 +36,11 @@ To easily preview the bundle locally, run
 yarn preview
 ```
 
+### Without Vite
+Although vite is extremely useful, this can be used without Vite too. Just use
+a static host like replit or `file:///<directory path on your computer>` and it
+should work. However, with Vite is the recommended method.
+
 ## Copying
 
 Really, most of this code is made by AoPS, and thus, they have copyright for it.
