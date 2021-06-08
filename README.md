@@ -1,13 +1,15 @@
-# aops-blog-env
+# AoPS Blog Development Server
 
 A barebones AoPS blog environment built in Vite.
+The default blog CSS is here: <a href="https://asfpg.github.io/aops-blog-env/" target="_blank">https://asfpg.github.io/aops-blog-env/</a>
+
 
 ## About
 
 Suggested by [forester2015](https://artofproblemsolving.com/community/user/546163),
 this aims to make CSS development on AoPS easier. It will also eliminate the need
 for "display blogs" on AoPS to show off CSS, as you can just put this in a GitHub
-pages, a replit, etc.
+pages, a replit, etc. If you use GitHub pages, we please fork it, then add your styles in `style.css`.
 
 ## Usage
 
@@ -46,4 +48,15 @@ should work. However, with Vite is the recommended method.
 Really, most of this code is made by AoPS, and thus, they have copyright for it.
 They probably wouldn't anyone you making money off of this, or claiming credit
 for it, or anything like that. However, if you think this is useful, please give
-us (sealsrock and forester2015) credit in your CSS file(s) made with this.
+us (sealsrock and forester2015) credit in your CSS file(s) made with this:
+
+```
+/*
+CSS created using AoPS Blog CSS Editor, made by forester2015 and sealsrock:
+
+    * https://github.com/Coding-Bot-1/AoPS-Blog-CSS-Editor
+    * https://artofproblemsolving.com/community/user/546163
+    * https://artofproblemsolving.com/community/user/364963
+
+*/
+```
