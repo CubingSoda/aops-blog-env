@@ -1,7 +1,7 @@
 # AoPS Blog Development Server
 
 A barebones AoPS blog environment built in Vite.
-The default blog CSS is here: <a href="https://asfpg.github.io/aops-blog-env/" target="_blank">https://asfpg.github.io/aops-blog-env/"</a>
+The default blog CSS is here: <a href="https://asfpg.github.io/aops-blog-env/" target="_blank">https://asfpg.github.io/aops-blog-env/</a>
 
 
 ## About
