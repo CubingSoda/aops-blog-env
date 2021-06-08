@@ -8,7 +8,13 @@
     <title>Test Blog</title>
     <link rel="shortcut icon" href="aops-icon.ico" type="image/x-icon" />
 
-    <script src="./script.js" defer></script>
+    <!-- AoPS uses a version of jquery from 2013 for some reason -->
+    <script
+      src="https://code.jquery.com/jquery-1.10.2.min.js"
+      integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js" defer></script>
 
     <style>
       #feed-topic .cmty-topic-moderate {
@@ -207,8 +213,10 @@
                           style="display: none"
                           class="active-code"
                           prefixcode="undefined"
-                        >print("hello")
-                      </textarea>
+                        >
+print("hello")
+                      </textarea
+                        >
                       </div>
                       <div>
                         <button
@@ -636,5 +644,11 @@ Topics from bookmarked tags, forums, and topics"
       </div>
       <div data-hj-suppress="" data-hj-masked="" id="feed-topic-list"></div>
     </div>
+
+    <!-- pywindow scripts -->
+    <script src="./pywindow/codemirror-compressed.js"></script>
+    <script src="./pywindow/skulpt.min.js"></script>
+    <script src="./pywindow/skulpt-stdlib.js"></script>
+    <script src="./pywindow/aopsmods.js"></script>
   </body>
 </html>
