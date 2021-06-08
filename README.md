@@ -54,7 +54,7 @@ us (sealsrock and forester2015) credit in your CSS file(s) made with this:
 /*
 CSS created using AoPS Blog CSS Editor, made by forester2015 and sealsrock:
 
-    * https://github.com/Coding-Bot-1/AoPS-Blog-CSS-Editor
+    * https://github.com/asfpg/aops-blog-env
     * https://artofproblemsolving.com/community/user/546163
     * https://artofproblemsolving.com/community/user/364963
 
