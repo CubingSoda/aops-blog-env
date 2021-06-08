@@ -1,4 +1,4 @@
-# aops-blog-env
+# AoPS Blog Development Server
 
 A barebones AoPS blog environment built in Vite.
 
@@ -46,4 +46,15 @@ should work. However, with Vite is the recommended method.
 Really, most of this code is made by AoPS, and thus, they have copyright for it.
 They probably wouldn't anyone you making money off of this, or claiming credit
 for it, or anything like that. However, if you think this is useful, please give
-us (sealsrock and forester2015) credit in your CSS file(s) made with this.
+us (sealsrock and forester2015) credit in your CSS file(s) made with this:
+
+```
+/*
+CSS created using AoPS Blog CSS Editor, made by forester2015 and sealsrock:
+
+    * https://github.com/Coding-Bot-1/AoPS-Blog-CSS-Editor
+    * https://artofproblemsolving.com/community/user/546163
+    * https://artofproblemsolving.com/community/user/364963
+
+*/
+```
