@@ -60,6 +60,7 @@
     <link rel="stylesheet" href="./default_styles/main.css" />
     <link rel="stylesheet" href="./default_styles/hyperion.css" />
     <link rel="stylesheet" href="./default_styles/feed.css" />
+    <link rel="stylesheet" href="./default_styles/codemirrorEdited.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="community modal-page-overflow">
@@ -182,6 +183,80 @@
                         padding: 10px;
                       "
                     ><span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">(</span><span style="color: #483d8b;">'hello world'</span><span style="color: black;">)</span></pre>
+                    <!-- pywindow -->
+                    <div
+                      id="pywindow7672f75789aa007c43c638e1d6dd31cf"
+                      class="pywindow"
+                      style="z-index: 0"
+                    >
+                      <div style="display: block">
+                        <div
+                          class="
+                            pywindow-temp-preview-code pywindow-one-digit-lines
+                          "
+                          onclick="pythonTool.addCodeSourceAndClick(event);"
+                        >
+                          <pre
+                            class="python"
+                            style="font-family: monospace"
+                          ><ol><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">(</span><span style="color: #483d8b;">"hello"</span><span style="color: black;">)</span></div></li></ol></pre>
+                        </div>
+                        <textarea
+                          rows="1"
+                          id="pywindow7672f75789aa007c43c638e1d6dd31cf_code"
+                          style="display: none"
+                          class="active-code"
+                          prefixcode="undefined"
+                        >print("hello")
+                      </textarea>
+                      </div>
+                      <div>
+                        <button
+                          type="button"
+                          class="btn btn-run"
+                          onclick="pythonTool.addCodeSourceAndRun('pywindow7672f75789aa007c43c638e1d6dd31cf', false);"
+                        >
+                          Run</button
+                        ><button
+                          type="button"
+                          class="btn btn-reset"
+                          onclick="pythonTool.addCodeSource('pywindow7672f75789aa007c43c638e1d6dd31cf', false);"
+                        >
+                          Reset</button
+                        ><button
+                          type="button"
+                          class="btn btn-link btn-pop"
+                          onclick="pythonTool.addCodeSourceAndPop('pywindow7672f75789aa007c43c638e1d6dd31cf', false);"
+                        >
+                          Pop Out <span class="aops-font">/</span>
+                        </button>
+                        <div style="clear: both"></div>
+                      </div>
+                      <div
+                        id="pywindow7672f75789aa007c43c638e1d6dd31cf_error"
+                      ></div>
+                      <div style="text-align: center">
+                        <canvas
+                          id="pywindow7672f75789aa007c43c638e1d6dd31cf_canvas"
+                          class="ac-canvas"
+                          height="400px"
+                          width="400px"
+                          style="
+                            border-style: solid;
+                            display: none;
+                            text-align: center;
+                          "
+                        ></canvas>
+                      </div>
+                      <pre
+                        id="pywindow7672f75789aa007c43c638e1d6dd31cf_pre"
+                        class="active-out active-out-hidden"
+                      ></pre>
+                      <div
+                        id="pywindow7672f75789aa007c43c638e1d6dd31cf_files"
+                        class="ac-files ac-files-hidden"
+                      ></div>
+                    </div>
                   </div>
                   <div class="cmty-post-attachments"></div>
                   <div class="cmty-post-edit-info"></div>
